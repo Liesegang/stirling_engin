@@ -104,6 +104,9 @@ class Stirling_Engin:
         print(f"低温部温度(T_C):\t{self.T_C} ℃")
         print()
 
+        print(f"回転数(N):\t\t{self.N} rpm")
+        print()
+
         print(f"エンジン内ガス質量(m):\t{self.m() * 10 ** 6} mg")
         print()
 
@@ -111,6 +114,7 @@ class Stirling_Engin:
         print()
 
         print(f"理論図示仕事(W_i):\t{self.W_i()} W")
+        print(f"")
 
 
 if __name__ == '__main__':
